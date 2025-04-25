@@ -1,17 +1,11 @@
 #!/usr/bin/env python3
 """
-Module 2-floor - Floor a floating number
+the function floor with the argument:
+n: the float
+returns the string representation of the floats
 """
 
 
-def floor(n: float) -> int:
-    """
-    Floor a floating number and return the result
-
-    Args:
-    n: float
-
-    Returns:
-        int: The floor of n
-    """
-    return int(n)
+def to_str(n: float) -> str:
+    """the function return the string representation of the float"""
+    return str(n)
