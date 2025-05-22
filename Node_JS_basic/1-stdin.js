@@ -1,3 +1,4 @@
+// This script reads input from the standard input (stdin) and writes it to the standard output (stdout).
 console.log('Welcome to Holberton School, what is your name?');
 
 process.stdin.on('readable', () => {
